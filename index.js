@@ -19,9 +19,9 @@ do {
 
   const guessTheNumber = () => {
   number = Math.floor(Math.random() * maxNum + 1);
-};
-  // Set a variable for the highest number of the range
-  answer = prompt(`Guess a number between 1 and ${maxNum} => `)
+    // Set a variable for the highest number of the range
+  answer = prompt(`Guess a number between 1 and ${maxNum} => `);
+  };
   guessTheNumber();
   if (answer == number) {
     
